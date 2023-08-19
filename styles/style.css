@@ -44,3 +44,52 @@ body{
 .menu ul li a{
     text-decoration: none;
 }
+
+.banner{
+    display: flex;
+}
+
+.banner-text h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #0B0223;
+    margin-top: 100px;   
+}
+.banner-text h1{
+    font-size: 95px;
+    font-weight: 900;
+    color: #F948B2  ;
+}
+
+.banner-text,.banner-img{
+    width: 50%;
+}
+
+.banner-text p{
+    margin-top: 10px;
+}
+
+.banner-img img{
+    width: 90%;
+}
+
+.btn{
+    margin-top: 30px;   
+}
+.btn-sign{
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    background: #FF42A5;
+    color: #fff;
+    font-weight: 700;
+}
+
+.btn-rogue{
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    background: #4EC5F7;
+    color: #fff;
+    font-weight: 700;
+}
