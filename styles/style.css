@@ -44,7 +44,10 @@ body{
 .menu ul li a{
     text-decoration: none;
 }
-
+.btn-follow{
+    border: none;
+    border-radius: 10px;
+}
 .banner{
     display: flex;
 }
@@ -92,4 +95,103 @@ body{
     background: #4EC5F7;
     color: #fff;
     font-weight: 700;
+}
+
+.online-game-head h2{
+    margin-top: 80px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #0B0223;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.online-game-head h2 span{
+    color: #F948B2;
+}
+
+.online-game-head p{
+    font-size: 18px;
+    color: #534C64;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.online-game{
+    display: flex;
+    gap: 10px;
+}
+
+.online-item img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.career{
+    background-color: #FF42A5;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    padding: 80px;
+    color:#fff;
+}
+
+.career-container{
+    display: flex;
+}
+.career-text h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 20px;}
+
+.left-list{
+    margin-left: -130px;
+}
+
+.see-position{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    color: #F948B2;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.career-img img{
+    width:100%;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+/* Responsive part css start */
+@media screen and (max-width: 576px) {
+    .navbar,.menu ul{
+        display: block;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+    }
+    .online-game{
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
